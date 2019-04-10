@@ -36,7 +36,7 @@ where *N* is the number of vertices and *A* is the area covered by the nodes.
 
 The convergence speed constant was set to the maximum value that didn't cause instability, 𝜹=20.
 
-Several authors propose slowing down the convergence as the number of iterations increase.  It was found that this could lead to failed convergence if it was too sharp a decrease, but that it did lead to smoother convergences.  At every step $`\delta`$ was multiplied by 0.99, meaning that by the end of 50 iterations $`\delta = 12.1`$.
+Several authors propose slowing down the convergence as the number of iterations increase.  It was found that this could lead to failed convergence if it was too sharp a decrease, but that it did lead to smoother convergences.  At every step 𝜹 was multiplied by 0.99, meaning that by the end of 50 iterations 𝜹=12.1.
 
 For a test graph of 14 nodes, starting in random positions, convergence is nearly always successful:
 
