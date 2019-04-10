@@ -9,7 +9,7 @@ Several techniques for applying Force-Directed Layouts to a bunch of vertices (n
 
 This basic method is the one described in Section 12.2 of [this book](http://cs.brown.edu/people/rtamassi/gdhandbook/chapters/force-directed.pdf) and is based upon that of [Fruchterman and Reingold (1991)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.8444&rep=rep1&type=pdf).  We treat the links as springs which have an attractive force and the nodes as magnets that repel each other.  The implementation does not actually treat these effects as proper forces, but rather as simple position changers.
 
-Each spring links two nodes, $`u`$ and $`v`$.  The vector from node positions ![$`\vec{p_u}`$ to $`\vec{p_v}`$](https://latex.codecogs.com/svg.download?%5Cvec%7Bp_u%7D%24%20to%20%24%5Cvec%7Bp_v%7D)  is denoted by $`\vec{r}_{uv}`$ so that the unit vector describing the direction from $`u`$ to $`v`$ is
+Each spring links two nodes, $`u`$ and $`v`$.  The vector from node positions ![$`\vec{p_u}`$ to $`\vec{p_v}`$](https://latex.codecogs.com/svg.latex?\inline&space;\vec{p_u}$&space;to&space;$\vec{p_v})  is denoted by $`\vec{r}_{uv}`$ so that the unit vector describing the direction from $`u`$ to $`v`$ is
 
 $`\hat{r} = \frac{\vec{r}_{uv}}{|\vec{r}_{uv}|}`$
 
