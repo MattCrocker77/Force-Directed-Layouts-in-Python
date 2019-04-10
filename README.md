@@ -40,3 +40,4 @@ Several authors propose slowing down the convergence as the number of iterations
 
 For a test graph of 14 nodes, starting in random positions, convergence is nearly always successful:
 
+![Convergence_GIF.gif](Convergence_GIF.gif)
